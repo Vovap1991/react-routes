@@ -1,7 +1,6 @@
 import { FiSearch } from 'react-icons/fi';
 import { BtnSearch, Select, SearchFormStyled } from './SearchForm.styled';
-import { useEffect, useState } from 'react';
-import { fetchByRegion } from 'service/country-service';
+import { useState } from 'react';
 
 export const SearchForm = ({ setSearchParams }) => {
   const [query, setQuery] = useState('');
