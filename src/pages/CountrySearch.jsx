@@ -19,6 +19,7 @@ export const CountrySearch = () => {
 
   useEffect(() => {
     const region = searchParams.get('query');
+    console.log(region);
     if (!region) return;
     setLoading(true);
     const findCoutry = async () => {
